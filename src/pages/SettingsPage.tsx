@@ -9,7 +9,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { useToast } from '@/hooks/use-toast';
 
 const SettingsPage: React.FC = () => {
-  const [emergencyContact, setEmergencyContact] = useState('');
+  const [emergencyContact, setEmergencyContact] = useState('+91 9572855213');
   const [userName, setUserName] = useState('');
   const { toast } = useToast();
 
